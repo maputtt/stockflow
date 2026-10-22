@@ -29,7 +29,7 @@ Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 1. **Clone the repository:**
    ```
-   git clone <YOUR_REPOSITORY_URL>
+   git clone https://github.com/maputtt/stockflow
    cd stockflow
 Start the containers:
 
