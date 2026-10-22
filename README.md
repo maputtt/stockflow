@@ -35,6 +35,7 @@ Start the containers:
 
 
 docker compose up -d --build
+
 Access endpoints:
 
 Web Dashboard: http://localhost:3000
