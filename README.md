@@ -85,19 +85,6 @@ curl -X POST "http://localhost:8080/api/orders" \
 
 curl -X POST "http://localhost:8080/api/orders/1/cancel"
 
-## 📁 Repository Layout
-
-stockflow/
-    backend/
-       main.go            # HTTP routing, handlers, and DB transaction logic
-       Dockerfile         # Go Alpine build stage
-    frontend/
-      src/                # React TS UI components & API client
-      Dockerfile          # Node.js Vite container
-    docker-compose.yml    # Multi-container orchestrator
-    init.sql              # DB migrations & initial seed data
-    README.md             # Technical overview
-
 ## ⏱️ Development Notes & Next Steps
 Development Time: ~6 hours total focused effort.
 
